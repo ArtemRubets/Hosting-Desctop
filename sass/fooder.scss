@@ -1,0 +1,39 @@
+@import 'settings.scss';
+@font-face{
+	font-family: "Gotham - Book";
+	src: url(../fonts/14008.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+footer{
+	padding:60px 0 50px 0;
+	.connect{
+		color: #3c4146;
+		font-family: "Gotham - Book";
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.connect-link{
+		position: relative;
+		padding-left:23px;
+		& img{
+			position: absolute;
+			top:7px;
+			left: 0;
+		}
+	}
+}
+.footer-title{
+	color: #3c4146;
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	line-height: 1;
+	letter-spacing: -0.57px;
+}
+.footer-text{
+	color: #3c4146;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}

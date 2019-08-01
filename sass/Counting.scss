@@ -1,0 +1,26 @@
+@import 'settings.scss';
+#counting{
+	height: 313px;
+	background-image: url(../img/happy-clients/bg-server.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	.counting-item{
+		text-align: center;
+		img{
+
+		}
+		.number{
+			color: #a9d8ff;
+			font-size: 52px;
+			font-weight: 400;
+			letter-spacing: -0.64px;
+			margin: 15px 0;
+		}
+		.description{
+			color: #a9d8ff;
+			font-size: 20px;
+			font-weight: 400;
+			text-transform: uppercase;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+
+// .slick-next
+// {
+//     right: 0px;
+// }
+
+// .slick-prev
+// {
+//     left: 0px;
+// }
+
+.slick-prev:before
+{
+    content: '';
+    display: block;
+    width: 22px;
+    height: 42px;
+    background-image: url(../img/left.png);
+    background-repeat: no-repeat;
+}
+
+.slick-next:before
+{
+    content: '';
+    display: block;
+    width: 22px;
+    height: 42px;
+    background-image: url(../img/right.png);
+    background-repeat: no-repeat;
+}
+
+.slick-dots li button:before{
+    font-size: 40px;
+    // top: 45px;
+}
+
+.slick-dots {
+    bottom: -50px;
+}
